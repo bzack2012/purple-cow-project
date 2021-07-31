@@ -6,11 +6,17 @@
 
     <groupId>org.example</groupId>
     <artifactId>purple-cow-project</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>app</module>
+    </modules>
+
 
     <properties>
         <maven.compiler.source>9</maven.compiler.source>
         <maven.compiler.target>9</maven.compiler.target>
+        <log4j.version>2.14.1</log4j.version>
     </properties>
 
 </project>
