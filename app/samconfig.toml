@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "purple-cow"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-uxcvsxjwxbfs"
+s3_prefix = "purple-cow"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
